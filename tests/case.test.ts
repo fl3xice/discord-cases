@@ -19,7 +19,7 @@ class TestChest extends Chest<Item> {
 }
 
 Deno.test("Frequency Drop", () => {
-    let frequency = {
+    const frequency = {
         Money: 0,
         Promocode: 0,
         Ticket: 0,
